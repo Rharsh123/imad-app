@@ -12,12 +12,15 @@ app.get('/', function (req, res) {
 app.get('article-one', function (req, res) {
     res.send('Vinayak is my Bhai');
 });
+
 app.get('article-two', function (req, res) {
     res.send('Vinayak is my Bhai');
 });
+
 app.get('article-three', function (req, res) {
     res.send('Harshit is swag');
 });
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
